@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: git-init
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/tektoncd-git-clone/git-init@sha256:77c4216140238c60330b25c80d6b4dbf01116f2865e2df5778285169762cd880
+        name: my-go
+        resources: {}
+status: {}
