@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: git-init
     app.kubernetes.io/part-of: tektoncd-git-clone
-  name: git-inithwze
+  name: git-inityyig
 spec:
   path: /
   port:

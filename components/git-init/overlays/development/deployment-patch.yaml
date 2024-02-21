@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/tektoncd-git-clone/git-init@sha256:d1b18f573f8987aed396879a00a031e4af9bb7ea8a4268777a20a649ddd8f396
+      - image: quay.io/redhat-user-workloads/tekton-ecosystem-tenant/tektoncd-git-clone/git-init@sha256:80b9b2f9160334f28ea91c08a7c83aa509ba511e942e78e9b8f2288796df5b8f
         name: my-go
         resources: {}
 status: {}
